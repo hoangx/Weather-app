@@ -1,9 +1,9 @@
 //
 //  Weather.swift
-//  JSON
+//  Weather
 //
-//  Created by Brian Advent on 11.05.17.
-//  Copyright © 2017 Brian Advent. All rights reserved.
+//  Created by Tommy Hoang on 7/2/17.
+//  Copyright © 2017 Tommy Hoang. All rights reserved.
 //
 
 import Foundation
@@ -34,7 +34,7 @@ struct Weather {
     }
     
     
-    static let basePath = "https://api.darksky.net/forecast/f7637fb1ae0905273b364af0e27ee1aa/"
+    static let basePath = "https://api.darksky.net/forecast/16ccc5e6aa275f65802bcecbef911f91/"
     
     static func forecast (withLocation location:CLLocationCoordinate2D, completion: @escaping ([Weather]?) -> ()) {
         
@@ -58,7 +58,7 @@ struct Weather {
                                 }
                             }
                         }
-                    
+                        
                     }
                 }catch {
                     print(error.localizedDescription)
@@ -80,8 +80,8 @@ struct Weather {
         
         
         
-    
+        
     }
     
-
+    
 }

@@ -12,7 +12,7 @@
 		256A61971F05DE410024E8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256A61961F05DE410024E8DC /* Assets.xcassets */; };
 		256A619A1F05DE410024E8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256A61981F05DE410024E8DC /* LaunchScreen.storyboard */; };
 		25B8DBD51F096FF700D9A115 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8DBD41F096FF700D9A115 /* WeatherTableViewController.swift */; };
-		25B8DBD71F09709700D9A115 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8DBD61F09709700D9A115 /* Weather.swift */; };
+		25F81F971F09D69C0099483F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F81F961F09D69C0099483F /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		256A61991F05DE410024E8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256A619B1F05DE410024E8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25B8DBD41F096FF700D9A115 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
-		25B8DBD61F09709700D9A115 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weather.swift; path = ../../../../Downloads/WeatherAppSupportingFiles/Weather.swift; sourceTree = "<group>"; };
+		25F81F961F09D69C0099483F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 				256A618F1F05DE410024E8DC /* AppDelegate.swift */,
 				256A61931F05DE410024E8DC /* Main.storyboard */,
 				25B8DBD41F096FF700D9A115 /* WeatherTableViewController.swift */,
-				25B8DBD61F09709700D9A115 /* Weather.swift */,
 				256A61961F05DE410024E8DC /* Assets.xcassets */,
 				256A61981F05DE410024E8DC /* LaunchScreen.storyboard */,
 				256A619B1F05DE410024E8DC /* Info.plist */,
+				25F81F961F09D69C0099483F /* Weather.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B8DBD51F096FF700D9A115 /* WeatherTableViewController.swift in Sources */,
-				25B8DBD71F09709700D9A115 /* Weather.swift in Sources */,
+				25F81F971F09D69C0099483F /* Weather.swift in Sources */,
 				256A61901F05DE410024E8DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
